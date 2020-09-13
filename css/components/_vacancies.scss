@@ -1,0 +1,39 @@
+.vacancies{
+  
+}
+.vacancies__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -24px;
+}
+.vacancies__item{
+  width: calc(50% - 24px);
+  margin-left: 24px;
+  border-top: rem(1px) solid $black20;
+  padding-top: rem(24px);
+  margin-bottom: rem(32px);
+  @include media-breakpoint-down(sm){
+    width: calc(100% - 24px);
+  }
+}
+.vacancies__title{
+  font-size: rem(16px);
+  font-weight: bold;
+  color: $primary;
+  display: block;
+  margin-bottom: rem(8px);
+}
+.vacancies__text{
+  font-size: rem(14px);
+  line-height: 130%;
+  margin-bottom: rem(16px);
+}
+.vacancies__footer{
+  display: flex;
+  justify-content: flex-end;
+}
+.vacancies__more{
+  width: rem(110px);
+  height: rem(32px);
+  font-size: rem(14px);
+}

@@ -1,0 +1,33 @@
+.retail{
+  
+}
+.retail__items{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -24px;
+}
+.retail__item{
+  width: calc(33.33% - 24px);
+  margin-left: 24px;
+  margin-bottom: rem(32px);
+  @include media-breakpoint-down(sm){
+    width: calc(50% - 24px);
+  }
+}
+.retail__img{
+  display: block;
+  margin-bottom: rem(16px);
+  img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: rem(8px);
+    border: rem(1px) solid $black20;
+  }
+}
+.retail__title{
+  display: block;
+  font-size: rem(16px);
+  color: $primary;
+  font-weight: bold;
+}

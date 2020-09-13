@@ -1,0 +1,35 @@
+.production {
+}
+.production__h2 {
+  border-bottom: rem(1px) solid $black20;
+  margin-bottom: rem(32px);
+  padding-bottom: rem(8px);
+  font-size: rem(24px);
+}
+.production__items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -24px;
+  & + .production__h2 {
+    margin-top: rem(56px);
+  }
+}
+.production__item {
+  width: calc(33.33% - 24px);
+  margin-left: 24px;
+}
+.production__img {
+  display: block;
+  margin-bottom: rem(16px);
+  img {
+    display: block;
+    width: 100%;
+    border-radius: rem(8px);
+    height: auto;
+  }
+}
+.production__title {
+  font-size: rem(16px);
+  color: $primary;
+  font-weight: bold;
+}

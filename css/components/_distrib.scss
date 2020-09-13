@@ -1,0 +1,49 @@
+.distrib{
+  
+}
+.distrib__item{
+  display: flex;
+  border-bottom: rem(1px) solid $black20;
+  padding-bottom: rem(32px);
+  margin-bottom: rem(32px);
+  @include media-breakpoint-down(sm){
+    flex-direction: column;
+  }
+}
+.distrib__img{
+  padding-right: rem(24px);
+  width: 16.57%;
+  flex: 0 0 auto;
+  @include media-breakpoint-down(sm){
+    width: 100px;
+    margin-bottom: 16px;
+  }
+  img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+.distrib__cont{
+  padding-right: rem(24px);
+  width: 45.67%;
+  flex: 0 0 auto;
+  @include media-breakpoint-down(sm){
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  p{
+    margin: 0;
+    &+p{
+      margin-top: rem(4px);
+    }
+  }
+}
+.distrib__h3{
+  margin-top: 0;
+  font-size: rem(18px);
+  margin-bottom: rem(16px);
+}
+.distrib__map{
+  width: 100%;
+}

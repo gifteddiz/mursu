@@ -1,0 +1,33 @@
+.pagination{
+  margin-top: rem(24px);
+}
+.pagination__wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination__item{
+  min-width: rem(40px);
+  height: rem(40px);
+  padding: 0 rem(10px);
+  border-radius: rem(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  color: $primary;
+  font-size: rem(16px);
+  border: rem(1px) solid $black20;
+  margin: 0 rem(2px);
+  &.--disabled{
+    color: $black40;
+    opacity: 0.4;
+  }
+}
+.pagination__ellipsis{
+  width: rem(40px);
+  display: flex;
+  justify-content: center;
+  margin: 0 rem(2px);
+  opacity: 0.4;
+}

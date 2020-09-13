@@ -1,0 +1,33 @@
+.partner-page{
+  
+}
+.partner-page__wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-left: -24px;
+  @include media-breakpoint-down(sm){
+    flex-direction: column;
+  }
+  &+.partner-page__wrapper{
+    margin-top: rem(32px);
+  }
+  h2 small{
+    display: block;
+    color: $black100;
+    font-size: rem(16px);
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  img{
+    display: block;
+    width: 100%;
+    border-radius: rem(8px);
+  }
+}
+.partner-page__col{
+  width: calc(50% - 24px);
+  margin-left: 24px;
+  @include media-breakpoint-down(sm){
+    width: calc(100% - 24px);
+  }
+}

@@ -1,0 +1,16 @@
+body {
+  background-color: #fff;
+  position: relative;
+  color: $black80;
+  overflow-y: scroll;
+  font-size: rem(16px);
+  &:before {
+    content: "";
+    position: absolute;
+    height: 209px;
+    left: 0px;
+    right: 0;
+    top: 0px;
+    background: linear-gradient(180deg, #f1f5f8 0%, rgba(255, 255, 255, 0) 100%);
+  }
+}

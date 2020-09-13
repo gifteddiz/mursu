@@ -1,0 +1,84 @@
+/*-------------------------
+*  Grid
+*--------------------------*/
+$columns: 12;
+$gutter: 10px;
+$spacing: 20;
+
+/*-------------------------
+*  Spacing
+*--------------------------*/
+$paddings: (
+  "pt": "padding-top",
+  "pr": "padding-right",
+  "pb": "padding-bottom",
+  "pl": "padding-left",
+);
+$margins: (
+  "mt": "margin-top",
+  "mr": "margin-right",
+  "mb": "margin-bottom",
+  "ml": "margin-left",
+);
+
+/*-------------------------
+*  Media Queries
+*--------------------------*/
+$xs: 480px;
+$sm: 600px;
+$md: 800px;
+$lg: 1190px;
+$xl: 1440px;
+$xxl: 1700px;
+
+$breakpoints: (
+  "xs": $xs,
+  "sm": $sm,
+  "md": $md,
+  "lg": $lg,
+  "xl": $xl,
+);
+
+/*-------------------------
+*  Colours
+*--------------------------*/
+$white: #fff;
+$black: #000;
+$light-grey: #efefef;
+
+// custom colours
+$primary: #1D5396;
+
+$black05: #F9F9FA;
+$black10: #E9EBED;
+$black20: #DBDDE0;
+$black40: #CACCCF;
+$black60: #A0A4A8;
+$black70: #8A9096;
+$black80: #52575C;
+$black100: #25282B;
+
+$colours: (
+  "white": $white,
+  "black": $black,
+  "light-grey": $light-grey,
+);
+
+/*-------------------------
+*  Typography
+*--------------------------*/
+$base-font: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$base-fs: 16px;
+
+/*-------------------------
+*  Animations
+*--------------------------*/
+$time: 320ms;
+$time_slow: 1000ms;
+
+$swing: cubic-bezier(0.18, 0.46, 0, 1.01);
+$swift: cubic-bezier(0.4, 0, 0.04, 1.01);
+$ease: ease;
+
+$transition-default: all $time $ease;

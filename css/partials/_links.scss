@@ -1,0 +1,10 @@
+a {
+	@include transition(all $time $ease);
+  text-decoration: none;
+  color: $primary;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+    color: lighten($primary, 15%);
+	}
+}
