@@ -1,17 +1,17 @@
-.card{
+.card {
   border: rem(1px) solid $black10;
   margin-left: rem(-1px);
   margin-top: rem(-1px);
   padding: rem(16px);
   position: relative;
-  &:hover{
-    .card__quick-view{
+  &:hover {
+    .card__quick-view {
       opacity: 1;
       visibility: visible;
     }
   }
 }
-.card__badge{
+.card__badge {
   border-radius: rem(4px);
   height: rem(24px);
   padding: 0 rem(12px);
@@ -26,20 +26,20 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
   padding-top: rem(1px);
-  &.--hit{
-    background-color: #F2AC44;
+  &.--hit {
+    background-color: #f2ac44;
     color: #fff;
   }
-  &.--new{
-    background-color: #648CC9;
+  &.--new {
+    background-color: #648cc9;
     color: #fff;
   }
-  &.--sale{
-    background-color: #FF493E;
+  &.--sale {
+    background-color: #ff493e;
     color: #fff;
   }
 }
-.card__quick-view{
+.card__quick-view {
   display: flex;
   position: absolute;
   top: 0;
@@ -59,25 +59,25 @@
   opacity: 0;
   visibility: hidden;
   transition: all $time;
-  &:hover{
+  &:hover {
     background-color: $primary;
     color: #fff;
-    img{
+    img {
       filter: brightness(200%);
     }
   }
-  img{
+  img {
     display: block;
     width: rem(16px);
     margin-right: rem(4px);
   }
 }
-.card__img{
+.card__img {
   padding: 0 rem(16px);
   margin-bottom: rem(24px);
   display: block;
 }
-.card__title{
+.card__title {
   font-size: rem(15px);
   font-weight: bold;
   color: $primary;
@@ -85,25 +85,46 @@
   margin-bottom: rem(14px);
   display: block;
 }
-.card__specs{
+.card__specs {
   font-size: rem(13px);
   color: $black60;
   line-height: 100%;
   margin-bottom: rem(20px);
   display: block;
-  p{
+  p {
     margin: 0;
-    &+p{
+    & + p {
       margin-top: rem(4px);
     }
   }
 }
-.card__to-basket{
+.card__price {
+  font-size: rem(13px);
+  color: $black100;
+  line-height: 1;
+  margin-right: rem(40px);
+  margin-bottom: rem(16px);
+  @include media-breakpoint-down(sm) {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  span {
+    font-size: rem(15px);
+    font-weight: bold;
+  }
+  p {
+    margin: 0;
+    & + p {
+      margin-top: rem(4px);
+    }
+  }
+}
+.card__to-basket {
   width: 100%;
   height: rem(40px);
   font-size: rem(14px);
 }
-.card__ask-price{
+.card__ask-price {
   font-size: rem(14px);
   display: block;
   text-align: center;

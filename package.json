@@ -11,7 +11,7 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "lint": "eslint \"./**/*.js\"",
     "setup": "node setup/setup.js",
-    "deploy": "rsync -avz --delete --exclude node_modules --exclude .git --exclude vendor . gifted_design@gifted.beget.tech:/home/g/gifted/ad-visor.space/public_html/lavacol/wp-content/themes/amst"
+    "deploy": "rsync -avz --delete --exclude node_modules --exclude .git --exclude vendor . gifted_design@gifted.beget.tech:/home/g/gifted/andrey-medvedev.ru/public_html/dev/mursu"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",

@@ -129,11 +129,23 @@
             </div>
             <div class="quick-view__section">
               <div class="quick-view__buy-n-reg">
+                <div class="quick-view__price">
+                  <p><span>825</span> руб/пара</p>
+                  <p><span>8250</span> руб/коробка</p>
+                </div>
+                <div class="quick-view__qty-n-caption">
+                  <div class="quick-view__qty">
+                    <button><img src="images/plus.svg"></button>
+                    <input type="text" value="1">
+                    <button><img src="images/minus.svg"></button>
+                  </div>
+                  <div class="quick-view__qty-caption">Кол–во коробов: <span>1</span></div>
+                </div>
                 <a href="#" class="quick-view__buy btn-1">Добавить в корзину</a>
-                <div class="quick-view__reg">
+                <!-- <div class="quick-view__reg">
                   <p>Цена доступна только зарегистрированным партнерам</p>
                   <p><a href="#">Оставить заявку на регистрацию</a></p>
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="quick-view__section">

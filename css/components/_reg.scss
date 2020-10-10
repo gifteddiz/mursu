@@ -1,26 +1,25 @@
-.reg{
-  
+.reg {
 }
-.reg__wrapper{
+.reg__wrapper {
   display: flex;
   justify-content: space-between;
   margin-left: -24px;
-  @include media-breakpoint-down(sm){
+  @include media-breakpoint-down(sm) {
     flex-direction: column-reverse;
   }
 }
-.reg__col{
+.reg__col {
   width: calc(50% - 24px);
   margin-left: 24px;
-  @include media-breakpoint-down(sm){
+  @include media-breakpoint-down(sm) {
     width: calc(100% - 24px);
   }
 }
-.reg__form{
+.reg__form {
   padding: rem(40px);
   background-color: $black05;
 }
-.reg__h3{
+.reg__h3 {
   font-size: rem(16px);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -28,39 +27,43 @@
   line-height: 1;
   margin-bottom: rem(24px);
 }
-.reg__radios{
+.reg__radios {
   display: flex;
   margin-bottom: rem(16px);
 }
-.reg__radio{
+.reg__radio {
   display: flex;
   align-items: center;
-  &+.reg__radio{
+  & + .reg__radio {
     margin-left: rem(28px);
   }
-  input{
+  input {
     margin-right: rem(13px);
   }
-  span{
+  span {
     display: block;
   }
 }
-.reg__input{
+.reg__input {
   margin-bottom: rem(16px);
-  input{
+  input {
     width: 100%;
     height: rem(40px);
     border: rem(1px) solid $black20;
     border-radius: rem(4px);
     font-size: rem(14px);
     padding-left: rem(8px);
+    transition: all $time;
+    &:focus {
+      border-color: lighten($primary, 20%);
+    }
   }
 }
-.reg__btn-wrapper{
+.reg__btn-wrapper {
   display: flex;
   justify-content: flex-end;
 }
-.reg__submit{
+.reg__submit {
   width: rem(210px);
   height: rem(56px);
   font-size: rem(16px);

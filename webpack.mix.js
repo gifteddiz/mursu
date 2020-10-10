@@ -15,7 +15,7 @@ mix.browserSync({
   //   key: "/your/certificates/location/your-local-domain.key",
   //   cert: "/your/certificates/location/your-local-domain.crt"
   // },
-  files: ["**/*.html", "css/**/*.css", "js/**/*.js"],
+  files: ["**/*.html", "**/*.php", "css/**/*.css", "js/**/*.js"],
   injectChanges: true,
   open: false,
 });
@@ -29,9 +29,12 @@ mix.autoload({
 mix.setPublicPath("./");
 
 // Compile assets
-mix.js("js/index.js", "js/final.js").sass("css/style.scss", "css/").options({
-  processCssUrls: false,
-});
+mix
+  .js("js/index.js", "js/final.js")
+  .sass("css/style.scss", "css/")
+  .options({
+    processCssUrls: false,
+  });
 
 // Add versioning to assets in production environment
 if (mix.inProduction()) {

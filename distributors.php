@@ -2,7 +2,7 @@
 <div class="heading">
   <div class="container">
     <div class="heading__breadcrambs"><a href="#">Главная </a> / <a href="#">Каталог</a></div>
-    <h1 class="heading__h1">Купить в розницу</h1>
+    <h1 class="heading__h1">Дистрибьюторы</h1>
   </div>
 </div>
 <div class="distrib">

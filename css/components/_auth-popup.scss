@@ -1,62 +1,66 @@
-.auth-popup{
+.auth-popup {
   margin: 0 auto;
   width: rem(460px);
   position: relative;
   background-color: #fff;
   border-radius: rem(8px);
-  @include media-breakpoint-down(sm){
+  @include media-breakpoint-down(sm) {
     width: 95%;
   }
 }
-.auth-popup__h2{
+.auth-popup__h2 {
   font-size: rem(24px);
   line-height: 1;
   padding: rem(24px) rem(32px);
   border-bottom: rem(1px) solid $black20;
   margin-bottom: 0;
 }
-.auth-popup__wrapper{
+.auth-popup__wrapper {
   padding: rem(32px);
   padding-top: rem(24px);
 }
-.auth-popup__input{
+.auth-popup__input {
   width: 100%;
   margin-bottom: rem(16px);
-  input{
+  input {
     width: 100%;
     height: rem(56px);
     border: rem(1px) solid $black20;
     border-radius: rem(4px);
     font-size: rem(14px);
     padding-left: rem(8px);
+    transition: all $time;
+    &:focus {
+      border-color: lighten($primary, 20%);
+    }
   }
 }
-.auth-popup__footer{
+.auth-popup__footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.auth-popup__keep{
+.auth-popup__keep {
   padding-left: rem(24px);
   padding-right: rem(32px);
   @include clearfix;
   display: block;
-  input{
+  input {
     float: left;
     margin-left: rem(-24px);
   }
-  span{
+  span {
     display: block;
     font-size: rem(14px);
     line-height: rem(16px);
   }
 }
-.auth-popup__btn{
+.auth-popup__btn {
   width: rem(134px);
   height: rem(56px);
   font-size: rem(16px);
 }
-.auth-popup__recover{
+.auth-popup__recover {
   border-top: rem(1px) solid $black20;
   padding: rem(16px);
   text-align: center;

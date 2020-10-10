@@ -53,7 +53,23 @@
               <a href="#" class="header__nav-link">Купить онлайн</a>
             </div>
             <div class="header__nav-item">
-              <a href="#" class="header__nav-link">Каталог</a>
+              <a href="#" class="header__nav-link --with-dropdown">Каталог</a>
+              <div class="header__nav-sub">
+                <div class="header__nav-sub-item">
+                  <a href="#" class="header__nav-sub-link">Обувь</a>
+                  <div class="header__nav-sub-sub">
+                    <a href="#" class="header__nav-sub-link">Актуальный сезон</a>
+                    <a href="#" class="header__nav-sub-link">Предзаказ</a>
+                  </div>
+                </div>
+                <div class="header__nav-sub-item">
+                  <a href="#" class="header__nav-sub-link">Аксессуры</a>
+                  <div class="header__nav-sub-sub">
+                    <a href="#" class="header__nav-sub-link">Актуальный сезон</a>
+                    <a href="#" class="header__nav-sub-link">Предзаказ</a>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="header__nav-item">
               <a href="#" class="header__nav-link --with-dropdown">О компании</a>
@@ -61,15 +77,6 @@
                 <a href="#" class="header__nav-sub-link">О нас</a>
                 <a href="#" class="header__nav-sub-link">Новости</a>
                 <a href="#" class="header__nav-sub-link">Вакансии</a>
-              </div>
-            </div>
-            <div class="header__nav-item">
-              <a href="#" class="header__nav-link --with-dropdown">Партнерам</a>
-              <div class="header__nav-sub">
-                <a href="#" class="header__nav-sub-link">Для оптовых покупателей</a>
-                <a href="#" class="header__nav-sub-link">Рекламная продукция</a>
-                <a href="#" class="header__nav-sub-link">Работа с браком</a>
-                <a href="#" class="header__nav-sub-link">Дистрибьюторы</a>
               </div>
             </div>
             <div class="header__nav-item">

@@ -22,16 +22,16 @@
         </div>
         <div class="product__imgs-previews">
           <div class="product__imgs-previews-item --active">
-            <img src="images/product__img-big.jpg" alt="" />
+            <img src="images/product__img-big.jpg" />
           </div>
           <div class="product__imgs-previews-item">
-            <img src="images/product__img-big-2.jpg" alt="" />
+            <img src="images/product__img-big-2.jpg" />
           </div>
           <div class="product__imgs-previews-item">
-            <img src="images/product__img-big.jpg" alt="" />
+            <img src="images/product__img-big.jpg" />
           </div>
           <div class="product__imgs-previews-item --video">
-            <img src="images/product__img-big-2.jpg" alt="" />
+            <img src="images/product__img-big-2.jpg" />
           </div>
         </div>
       </div>
@@ -84,11 +84,23 @@
         </div>
         <div class="product__section">
           <div class="product__buy-n-reg">
+            <div class="product__price">
+              <p><span>825</span> руб/пара</p>
+              <p><span>8250</span> руб/коробка</p>
+            </div>
+            <div class="product__qty-n-caption">
+              <div class="product__qty">
+                <button><img src="images/plus.svg"></button>
+                <input type="text" value="1">
+                <button><img src="images/minus.svg"></button>
+              </div>
+              <div class="product__qty-caption">Кол–во коробов: <span>1</span></div>
+            </div>
             <a href="#" class="product__buy btn-1">Добавить в корзину</a>
-            <div class="product__reg">
+            <!-- <div class="product__reg">
               <p>Цена доступна только зарегистрированным партнерам</p>
               <p><a href="#">Оставить заявку на регистрацию</a></p>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="product__section">
@@ -162,133 +174,31 @@
     </div>
     <div class="products-slider__slider">
       <div class="products-slider__slide">
-        <div class="card">
-          <div class="card__badge --hit">ХИТ</div>
-          <a href="#quick-view" class="card__quick-view">
-            <img src="images/card__zoom.svg" />
-            <span>Быстрый просмотр</span>
-          </a>
-          <a href="#" class="card__img">
-            <img src="images/product__img.jpg" />
-          </a>
-          <a href="" class="card__title">Пантолеты дошкольные, школьные для девочки </a>
-          <div class="card__specs">
-            <p>Артикул: 205211</p>
-            <p>Размерный ряд: 27-32</p>
-          </div>
-          <a href="#" class="card__to-basket btn-1">Добавить в корзину</a>
-          <a href="#" class="card__ask-price">Запросить цену</a>
-        </div>
+        <?php include './card.php'; ?>
       </div>
       <div class="products-slider__slide">
-        <div class="card">
-          <div class="card__badge --new">Новинка</div>
-          <a href="#quick-view" class="card__quick-view">
-            <img src="images/card__zoom.svg" />
-            <span>Быстрый просмотр</span>
-          </a>
-          <a href="#" class="card__img">
-            <img src="images/product__img.jpg" />
-          </a>
-          <a href="" class="card__title">Пантолеты дошкольные, школьные для девочки </a>
-          <div class="card__specs">
-            <p>Артикул: 205211</p>
-            <p>Размерный ряд: 27-32</p>
-          </div>
-          <a href="#" class="card__to-basket btn-1">Добавить в корзину</a>
-          <a href="#" class="card__ask-price">Запросить цену</a>
-        </div>
+        <?php include './card.php'; ?>
       </div>
       <div class="products-slider__slide">
-        <div class="card">
-          <div class="card__badge --sale">Скидка</div>
-          <a href="#quick-view" class="card__quick-view">
-            <img src="images/card__zoom.svg" />
-            <span>Быстрый просмотр</span>
-          </a>
-          <a href="#" class="card__img">
-            <img src="images/product__img.jpg" />
-          </a>
-          <a href="" class="card__title">Пантолеты дошкольные, школьные для девочки </a>
-          <div class="card__specs">
-            <p>Артикул: 205211</p>
-            <p>Размерный ряд: 27-32</p>
-          </div>
-          <a href="#" class="card__to-basket btn-1">Добавить в корзину</a>
-          <a href="#" class="card__ask-price">Запросить цену</a>
-        </div>
+        <?php include './card.php'; ?>
       </div>
       <div class="products-slider__slide">
-        <div class="card">
-          <a href="#quick-view" class="card__quick-view">
-            <img src="images/card__zoom.svg" />
-            <span>Быстрый просмотр</span>
-          </a>
-          <a href="#" class="card__img">
-            <img src="images/product__img.jpg" />
-          </a>
-          <a href="" class="card__title">Пантолеты дошкольные, школьные для девочки </a>
-          <div class="card__specs">
-            <p>Артикул: 205211</p>
-            <p>Размерный ряд: 27-32</p>
-          </div>
-          <a href="#" class="card__to-basket btn-1">Добавить в корзину</a>
-          <a href="#" class="card__ask-price">Запросить цену</a>
-        </div>
+        <?php include './card.php'; ?>
       </div>
       <div class="products-slider__slide">
-        <div class="card">
-          <a href="#quick-view" class="card__quick-view">
-            <img src="images/card__zoom.svg" />
-            <span>Быстрый просмотр</span>
-          </a>
-          <a href="#" class="card__img">
-            <img src="images/product__img.jpg" />
-          </a>
-          <a href="" class="card__title">Пантолеты дошкольные, школьные для девочки </a>
-          <div class="card__specs">
-            <p>Артикул: 205211</p>
-            <p>Размерный ряд: 27-32</p>
-          </div>
-          <a href="#" class="card__to-basket btn-1">Добавить в корзину</a>
-          <a href="#" class="card__ask-price">Запросить цену</a>
-        </div>
+        <?php include './card.php'; ?>
       </div>
       <div class="products-slider__slide">
-        <div class="card">
-          <a href="#quick-view" class="card__quick-view">
-            <img src="images/card__zoom.svg" />
-            <span>Быстрый просмотр</span>
-          </a>
-          <a href="#" class="card__img">
-            <img src="images/product__img.jpg" />
-          </a>
-          <a href="" class="card__title">Пантолеты дошкольные, школьные для девочки </a>
-          <div class="card__specs">
-            <p>Артикул: 205211</p>
-            <p>Размерный ряд: 27-32</p>
-          </div>
-          <a href="#" class="card__to-basket btn-1">Добавить в корзину</a>
-          <a href="#" class="card__ask-price">Запросить цену</a>
-        </div>
+        <?php include './card.php'; ?>
       </div>
       <div class="products-slider__slide">
-        <div class="card">
-          <a href="#quick-view" class="card__quick-view">
-            <img src="images/card__zoom.svg" />
-            <span>Быстрый просмотр</span>
-          </a>
-          <a href="#" class="card__img">
-            <img src="images/product__img.jpg" />
-          </a>
-          <a href="" class="card__title">Пантолеты дошкольные, школьные для девочки </a>
-          <div class="card__specs">
-            <p>Артикул: 205211</p>
-            <p>Размерный ряд: 27-32</p>
-          </div>
-          <a href="#" class="card__to-basket btn-1">Добавить в корзину</a>
-          <a href="#" class="card__ask-price">Запросить цену</a>
-        </div>
+        <?php include './card.php'; ?>
+      </div>
+      <div class="products-slider__slide">
+        <?php include './card.php'; ?>
+      </div>
+      <div class="products-slider__slide">
+        <?php include './card.php'; ?>
       </div>
     </div>
   </div>
