@@ -84,23 +84,52 @@
         </div>
         <div class="product__section">
           <div class="product__buy-n-reg">
+
+            <div id="bx_117848907_35534_skudiv" style="display: none">
+            </div>
             <div class="product__price">
-              <p><span>825</span> руб/пара</p>
-              <p><span>8250</span> руб/коробка</p>
-            </div>
-            <div class="product__qty-n-caption">
-              <div class="product__qty">
-                <button><img src="images/plus.svg"></button>
-                <input type="text" value="1">
-                <button><img src="images/minus.svg"></button>
+              <div class="product-item-detail-price-old" id="bx_117848907_35534_old_price" style="display: none;">
               </div>
-              <div class="product__qty-caption">Кол–во коробов: <span>1</span></div>
+              <p class="product-item-detail-price-current" id="bx_117848907_35534_price" style="font-size: 11px;">234 руб. / пару</p>
+              <p><span>2 808 руб.</span> /коробка</p>
             </div>
-            <a href="#" class="product__buy btn-1">Добавить в корзину</a>
-            <!-- <div class="product__reg">
-              <p>Цена доступна только зарегистрированным партнерам</p>
-              <p><a href="#">Оставить заявку на регистрацию</a></p>
-            </div> -->
+
+
+            <div class="product-item-detail-info-container block222 product__qty-n-caption" style="" data-entity="quantity-block">
+              <div class="product-item-detail-info-container-title"></div>
+              <div class="product-item-amount" style="margin-top:-23px;">
+                <div class="product-item-amount-field-container quick-view__qty">
+                  <span class="product-item-amount-description-container quick-view__qty-caption"><span id="bx_117848907_35534_price_total2">количество коробов: <strong>1</strong></span></span><br>
+                  <div class="quick-view__qty-form">
+                    <a class="product-item-amount-field-btn-minus product-item-amount-field-btn-disabled" id="bx_117848907_35534_quant_down" href="javascript:void(0)" rel="nofollow">
+                    </a>
+                    <input class="product-item-amount-field" id="bx_117848907_35534_quantity" type="tel" value="12" disabled="disabled">
+                    <a class="product-item-amount-field-btn-plus product-item-amount-field-btn-disabled" id="bx_117848907_35534_quant_up" href="javascript:void(0)" rel="nofollow">
+                    </a>
+                  </div>
+                  <span class="product-item-amount-description-container product__qty-caption">
+                    <span id="bx_117848907_35534_quant_measure">пар(ы)</span>
+                    <span id="bx_117848907_35534_price_total">на сумму <strong>2 808 руб.</strong></span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="product__buy btn-1" data-entity="main-button-container">
+              <div id="bx_117848907_35534_basket_actions" style="display: ;">
+
+                <div class="product-item-detail-info-container">
+                  <a class="addCart  btn-default product-item-detail-buy-button quick-view__buy btn-1" id="bx_117848907_35534_add_basket_link" href="javascript:void(0);">
+                    <span>В корзину</span>
+                  </a>
+                </div>
+
+              </div>
+              <div class="product-item-detail-info-container">
+                <a class="btn btn-link product-item-detail-buy-button" id="bx_117848907_35534_not_avail" href="javascript:void(0)" rel="nofollow" style="display: none;">
+                  Нет в наличии </a>
+              </div>
+            </div>
+
           </div>
         </div>
         <div class="product__section">

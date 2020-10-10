@@ -34,6 +34,7 @@ mix
   .sass("css/style.scss", "css/")
   .options({
     processCssUrls: false,
+    cssNano: false,
   });
 
 // Add versioning to assets in production environment

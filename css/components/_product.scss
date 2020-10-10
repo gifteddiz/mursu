@@ -200,12 +200,21 @@
       margin-top: rem(8px);
     }
   }
+  .product-item-detail-price-current{
+    font-size: inherit !important;
+    color: inherit !important;
+    line-height: inherit !important;
+  }
 }
 .product__qty-n-caption {
   margin-right: rem(40px);
+  margin-bottom: 0 !important;
   @include media-breakpoint-down(sm) {
     margin-right: 0;
     margin-bottom: 16px;
+  }
+  .product-item-amount{
+    margin-top: 0 !important;
   }
 }
 .product__qty {
@@ -246,7 +255,7 @@
   color: $black70;
   margin-top: rem(4px);
   span {
-    font-weight: bold;
+    // font-weight: bold;
     color: $black100;
   }
 }

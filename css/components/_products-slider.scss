@@ -14,14 +14,25 @@
     border: 0;
     background-color: transparent;
     cursor: pointer;
+    @include media-breakpoint-down(sm){
+      width: 8px;
+      height: 14px;
+      z-index: 10;
+    }
   }
   .slick-prev{
     left: rem(-34px);
     background-image: url(../images/arrow-left.svg);
+    @include media-breakpoint-down(sm){
+      left: -13px;
+    }
   }
   .slick-next{
     right: rem(-34px);
     background-image: url(../images/arrow-right.svg);
+    @include media-breakpoint-down(sm){
+      right: -13px;
+    }
   }
 }
 .products-slider__header{
