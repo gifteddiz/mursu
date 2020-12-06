@@ -77,11 +77,11 @@
           <div class="filter__section">
             <h3 class="filter__h3">пол</h3>
             <div class="filter__checkboxes">
-              <label class="filter__checkbox">
+              <label class="filter__checkbox --half">
                 <input type="checkbox" />
                 <span>Все</span>
               </label>
-              <label class="filter__checkbox">
+              <label class="filter__checkbox --half">
                 <input type="checkbox" />
                 <span>Для мальчиков</span>
               </label>

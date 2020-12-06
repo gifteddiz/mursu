@@ -59,6 +59,9 @@
   opacity: 0;
   visibility: hidden;
   transition: all $time;
+  @include media-breakpoint-down(sm){
+    display: none !important;
+  }
   &:hover {
     background-color: $primary;
     color: #fff;

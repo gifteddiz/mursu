@@ -156,3 +156,10 @@
     margin-top: 0;
   }
 }
+
+.js-img-hover-carousel{
+  display: none !important;
+}
+.js-img-hover-carousel--current{
+  display: block !important;
+}

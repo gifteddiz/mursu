@@ -52,6 +52,7 @@
   "license": "GPL-3.0",
   "dependencies": {
     "jquery-match-height": "^0.7.2",
+    "js-image-zoom": "^0.7.0",
     "magnific-popup": "^1.1.0",
     "normalize-scss": "^7.0.1",
     "slick-carousel": "^1.8.1"

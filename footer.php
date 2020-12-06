@@ -139,11 +139,27 @@
                         <td>22</td>
                         <td>24</td>
                         <td>26</td>
+                        <td>26</td>
+                        <td>26</td>
+                        <td>26</td>
+                        <td>26</td>
+                        <td>26</td>
+                        <td>26</td>
+                        <td>26</td>
+                        <td>26</td>
                       </tr>
                       <tr>
                         <td>Пар на размер</td>
                         <td>2</td>
                         <td>2</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>3</td>
                         <td>3</td>
                         <td>3</td>
                       </tr>

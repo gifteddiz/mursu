@@ -125,13 +125,16 @@
 }
 .quick-view__sizes-wrapper {
   background-color: $black05;
+  width: 100%;
+  padding: rem(10px);
 }
 .quick-view__sizes {
   border-collapse: collapse;
-  margin: rem(10px);
+  width: 100%;
+  margin: 0;
   td {
     background-color: transparent !important;
-    padding: rem(4px) rem(16px);
+    padding: rem(4px) 0;
     font-size: rem(13px);
     line-height: 1.2;
     & + td {

@@ -124,10 +124,12 @@
 .product__key {
   font-size: rem(13px);
   color: $black70;
+  white-space: nowrap;
 }
 .product__val {
   font-size: rem(13px);
   color: $black100;
+  white-space: nowrap;
 }
 .product__sizes-n-box {
   display: flex;
@@ -139,6 +141,8 @@
 }
 .product__sizes-wrapper {
   background-color: $black05;
+  padding: rem(10px);
+  width: 100%;
   @include media-breakpoint-down(sm) {
     width: 100%;
     overflow-x: scroll;
@@ -146,10 +150,11 @@
 }
 .product__sizes {
   border-collapse: collapse;
-  margin: rem(10px);
+  margin: 0;
+  width: 100%;
   td {
     background-color: transparent !important;
-    padding: rem(4px) rem(16px);
+    padding: rem(4px) 0;
     font-size: rem(13px);
     line-height: 1.2;
     & + td {

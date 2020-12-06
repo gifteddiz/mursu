@@ -1,7 +1,22 @@
 .header {
-  margin-bottom: rem(24px);
-  position: relative;
   z-index: 20;
+  height: rem(160px);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  background: linear-gradient(180deg, #f1f5f8 0%, rgba(255, 255, 255, 1) 100%);
+  @include media-breakpoint-down(sm){
+    position: relative;
+    height: auto;
+    margin-bottom: rem(24px);
+  }
+  .container{
+    @include media-breakpoint-down(sm){
+      padding: 0 10px;
+    }
+  }
 }
 .header__top {
   display: flex;
@@ -12,7 +27,7 @@
   @include media-breakpoint-down(sm) {
     flex-wrap: wrap;
     height: auto;
-    padding: 12px 0;
+    padding: 72px 0 12px 0;
   }
 }
 .header__lang {
@@ -25,7 +40,7 @@
 .header__social {
   display: flex;
   @include media-breakpoint-down(sm) {
-    width: 50%;
+    width: auto;
     justify-content: flex-end;
   }
 }
@@ -44,7 +59,7 @@
   display: flex;
   align-items: center;
   @include media-breakpoint-down(sm) {
-    width: 100%;
+    width: auto;
     justify-content: space-between;
     margin: 8px 0;
   }
@@ -100,8 +115,17 @@
 }
 .header__basket {
   position: relative;
+  @include media-breakpoint-down(sm){
+    position: fixed;
+    top: 27px;
+    right: 10px;
+    z-index: 10;
+  }
   img {
     width: rem(24px);
+    @include media-breakpoint-down(sm){
+      filter: brightness(1000%);
+    }
   }
   span {
     display: flex;
@@ -130,10 +154,22 @@
   background: $primary;
   border-radius: rem(8px);
   padding: 0 rem(16px) 0 rem(24px);
+  @include media-breakpoint-down(sm){
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    border-radius: 0;
+    padding-left: 10px;
+    padding-right: 50px;
+  }
 }
 .header__logo {
   width: rem(152px);
   padding-bottom: rem(4px);
+  @include media-breakpoint-down(sm){
+    width: 90px;
+  }
   img {
     display: block;
     width: 100%;
@@ -241,6 +277,7 @@
   display: flex;
   @include media-breakpoint-down(sm) {
     visibility: hidden;
+    pointer-events: none;
     opacity: 0;
     transform: translateX(20px);
     position: fixed;
@@ -254,7 +291,8 @@
     overflow-x: scroll;
     transition: all $time;
     &.--visible {
-      visibility: visible;
+      pointer-events: all;
+      visibility: inherit;
       opacity: 1;
       transform: translateX(0);
     }
@@ -268,7 +306,7 @@
     background-color: #134788;
     .header__nav-sub {
       opacity: 1;
-      visibility: visible;
+      visibility: inherit;
     }
   }
 }
@@ -287,14 +325,15 @@
     color: #bfd5f0;
   }
   &.--with-dropdown {
-    &:after {
+    &>span {
       content: "";
-      width: rem(8px);
-      height: rem(5px);
+      width: rem(24px);
+      height: rem(24px);
       margin-left: rem(4px);
       background-image: url(../images/header__dropdown.svg);
+      background-size: rem(8px);
       background-repeat: no-repeat;
-      background-size: contain;
+      background-position: center center;
     }
   }
 }
@@ -310,7 +349,7 @@
   border-radius: 0 0 rem(4px) rem(4px);
   background-color: #134788;
   @include media-breakpoint-down(sm) {
-    visibility: visible;
+    visibility: inherit;
     opacity: 1;
     position: static;
     background-color: transparent;
@@ -318,6 +357,10 @@
     padding-bottom: 8px;
     padding-left: 14px;
     width: auto;
+    display: none;
+    &.--visible{
+      display: block;
+    }
   }
   &.--right {
     left: auto;
@@ -330,10 +373,13 @@
   &:hover {
     & > .header__nav-sub-link {
       background-color: #053672;
+      @include media-breakpoint-down(sm){
+        background-color: transparent;
+      }
     }
     .header__nav-sub-sub {
       opacity: 1;
-      visibility: visible;
+      visibility: inherit;
     }
   }
 }
@@ -347,7 +393,7 @@
   width: rem(170px);
   border-radius: 0 0 rem(4px) rem(4px);
   @include media-breakpoint-down(sm) {
-    visibility: visible;
+    visibility: inherit;
     opacity: 1;
     position: static;
     background-color: transparent;
@@ -358,6 +404,9 @@
   }
   .header__nav-sub-link {
     background-color: #053672;
+    @include media-breakpoint-down(sm){
+      background-color: transparent;
+    }
     &:hover {
       background-color: #00295c;
     }

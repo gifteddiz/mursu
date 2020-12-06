@@ -14,17 +14,17 @@
     <header class="header">
       <div class="container">
         <div class="header__top">
-          <a href="#" class="header__lang">English version</a>
+          <!-- <a href="#" class="header__lang">English version</a> -->
           <div class="header__social">
-            <a href="#" class="header__social-item">
+            <!-- <a href="#" class="header__social-item">
               <img src="images/header__social-vk.svg" alt="vkontakte" />
-            </a>
+            </a> -->
             <a href="#" class="header__social-item">
               <img src="images/header__social-inst.svg" alt="instagram" />
             </a>
-            <a href="#" class="header__social-item">
+            <!-- <a href="#" class="header__social-item">
               <img src="images/header__social-fb.svg" alt="facebook" />
-            </a>
+            </a> -->
           </div>
           <div class="header__contacts">
             <a href="tel:+74959335310" class="header__tel">+7 (495) 933-53-10</a>
@@ -32,8 +32,8 @@
             <a href="mailto:sales@mursu.moscow" class="header__mail">sales@mursu.moscow</a>
           </div>
           <div class="header__profile">
-            <a href="#auth-popup" class="header__profile-auth jsPopup">Вход</a>
-            <a href="#" class="header__profile-auth">Регистрация</a>
+            <a href="#auth-popup" class="header__profile-auth jsPopup">Выход</a>
+            <!-- <a href="#" class="header__profile-auth">Регистрация</a> -->
           </div>
           <a href="#" class="header__basket">
             <img src="images/header__basket.svg" />
@@ -217,7 +217,7 @@
               <a href="#" class="header__nav-link">Купить онлайн</a>
             </div>
             <div class="header__nav-item">
-              <a href="#" class="header__nav-link --with-dropdown">Каталог</a>
+              <a href="#" class="header__nav-link --with-dropdown">Каталог<span></span></a>
               <div class="header__nav-sub">
                 <div class="header__nav-sub-item">
                   <a href="#" class="header__nav-sub-link">Обувь</a>
@@ -236,7 +236,7 @@
               </div>
             </div>
             <div class="header__nav-item">
-              <a href="#" class="header__nav-link --with-dropdown">О компании</a>
+              <a href="#" class="header__nav-link --with-dropdown">О компании<span></span></a>
               <div class="header__nav-sub">
                 <a href="#" class="header__nav-sub-link">О нас</a>
                 <a href="#" class="header__nav-sub-link">Новости</a>
@@ -247,7 +247,7 @@
               <a href="#" class="header__nav-link">Спецпредложение</a>
             </div>
             <div class="header__nav-item">
-              <a href="#" class="header__nav-link --with-dropdown">Партнерам</a>
+              <a href="#" class="header__nav-link --with-dropdown">Партнерам<span></span></a>
               <div class="header__nav-sub">
                 <a href="#" class="header__nav-sub-link">Для оптовых покупателей</a>
                 <a href="#" class="header__nav-sub-link">Рекламная продукция</a>
@@ -256,7 +256,7 @@
               </div>
             </div>
             <div class="header__nav-item">
-              <a href="#" class="header__nav-link --with-dropdown">Контакты</a>
+              <a href="#" class="header__nav-link --with-dropdown">Контакты<span></span></a>
               <div class="header__nav-sub --right">
                 <a href="#" class="header__nav-sub-link">Наши контакты</a>
                 <a href="#" class="header__nav-sub-link">Дистрибьюторы</a>

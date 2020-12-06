@@ -6,8 +6,9 @@
     <img src="images/card__zoom.svg" />
     <span>Быстрый просмотр</span>
   </a>
-  <a href="#" class="card__img">
-    <img src="images/product__img.jpg" />
+  <a href="#" class="card__img js-img-hover-carousel-wrapper">
+    <img src="images/product__img.jpg" class="js-img-hover-carousel js-img-hover-carousel--current" />
+    <img src="images/product__img-big.jpg" class="js-img-hover-carousel" />
   </a>
   <a href="" class="card__title">Пантолеты дошкольные, школьные для девочки </a>
   <div class="card__specs">

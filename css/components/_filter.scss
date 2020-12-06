@@ -69,23 +69,27 @@
   margin-bottom: rem(16px);
 }
 .filter__checkboxes{
-  
+  display: flex;
+  flex-wrap: wrap;
 }
 .filter__checkbox{
   display: block;
   padding-left: rem(22px);
   @include clearfix;
+  width: 100%;
+  margin-top: rem(8px);
   input{
     float: left;
     margin-left: rem(-22px);
+    margin-top: rem(3px);
   }
   span{
     display: block;
     font-size: rem(14px);
     color: $black80;
   }
-  &+.filter__checkbox{
-    margin-top: rem(8px);
+  &.--half{
+    width: 50%;
   }
 }
 .filter__btns{
